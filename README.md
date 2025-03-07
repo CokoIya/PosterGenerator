@@ -17,7 +17,9 @@
 ## 快速开始
 
 ### 1. 克隆仓库
+
 git clone https://github.com/your-username/poster-generator.git
+
 cd poster-generator
 
 2. 准备模板文件
@@ -29,15 +31,21 @@ cd poster-generator
 3. 配置数据
 
 修改 PosterGenerator.java 中的主方法变量值：
+
 String company = "稀定（厦门）有限公司";          // 授权方
+
 String authorizedCompany = "不白吃有限公司";      // 被授权方
+
 // ...其他参数根据实际情况调整
 
 4. 编译运行
+   
 javac -d bin src/main/java/com/poster/generator/PosterGenerator.java
+
 java -cp bin com.poster.generator.PosterGenerator
 
 或通过IDE直接运行 main 方法。
+
 5. 获取结果
 
 生成的海报将保存为项目根目录下的 poster.png。
@@ -45,10 +53,13 @@ java -cp bin com.poster.generator.PosterGenerator
 调整文本坐标
 
 在 generatePoster 方法中修改 drawString 的坐标参数：
+
 g2d.drawString(company, 220, 230);  // X=220, Y=230
 
 自定义字体
+
 修改字体名称、样式和大小：
+
 Font font = new Font("宋体", Font.PLAIN, 24);  // 字体、样式、字号
 
 注意事项
