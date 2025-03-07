@@ -18,7 +18,7 @@
 
 ### 1. 克隆仓库
 
-git clone https://github.com/your-username/poster-generator.git
+git clone https://github.com/CokoIya/poster-generator.git
 
 cd poster-generator
 
