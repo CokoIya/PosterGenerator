@@ -62,9 +62,13 @@ Font font = new Font("宋体", Font.PLAIN, 24);  // 字体、样式、字号
 项目结构
 
 ├── src/main/java/com/poster/generator
+
 │   └── PosterGenerator.java       # 核心生成逻辑
+
 ├── src/main/resources
+
 │   └── template.png               # 模板文件（需手动添加）
+
 └── poster.png                      # 生成结果（运行后自动创建）
 
 许可证
