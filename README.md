@@ -60,6 +60,7 @@ Font font = new Font("宋体", Font.PLAIN, 24);  // 字体、样式、字号
     📍 坐标定位需根据模板实际布局调整
 
 项目结构
+
 ├── src/main/java/com/poster/generator
 │   └── PosterGenerator.java       # 核心生成逻辑
 ├── src/main/resources
