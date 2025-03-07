@@ -84,6 +84,6 @@ Font font = new Font("宋体", Font.PLAIN, 24);  // 字体、样式、字号
 
 许可证
 
-MIT License © 2023 Your Name
+MIT License © 2025 COkoIya
 ---
 💡 **提示**：建议在仓库中提供默认模板示例，方便用户快速测试。可通过 `git-lfs` 管理大尺寸图片资源。
